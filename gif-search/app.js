@@ -1,6 +1,7 @@
 var express = require('express');
 var app = express();
 
+
 app.get('/hello-gif', function (req, res) {
   var gifUrl = 'http://media2.giphy.com/media/gYBVM1igrlzH2/giphy.gif'
   res.render('hello-gif', {gifUrl: gifUrl})
